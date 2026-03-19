@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env*.local
+
+# Build output
+dist/
+build/
+web-build/
+
+# Expo
+.expo/
+expo-env.d.ts
+
+# Native generated folders
+/round-app/ios
+/round-app/android
+.kotlin/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Native signing keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
